@@ -14,7 +14,8 @@ Style/AsciiComments:
   Enabled: false
 
 Style/AsciiIdentifiers:
-  Enabled: false
+  Exclude:
+    - 'features/step_definitions/**/*'
 
 Style/AndOr:
   Enabled: false
@@ -26,4 +27,28 @@ Style/StringLiterals:
   EnforcedStyle: single_quotes
 
 Style/SpaceInsideBlockBraces:
+  EnforcedStyle: space
   SpaceBeforeBlockParameters: false
+
+Metrics/MethodLength:
+  Max: 25
+  Exclude:
+    - 'db/migrate/**/*'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SingleLineMethods:
+  Enabled: false
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/UnneededInterpolation:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
+
+Style/ClassAndModuleChildren:
+  Enabled: false
