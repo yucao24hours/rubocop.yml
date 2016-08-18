@@ -24,3 +24,6 @@ Style/SpaceInsideHashLiteralBraces:
 
 Style/StringLiterals:
   EnforcedStyle: single_quotes
+
+Style/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
