@@ -1,5 +1,11 @@
 AllCops:
   TargetRubyVersion: 2.3
+  Exclude:
+    - 'bin/rails'
+    - 'bin/rake'
+    - 'db/schema.rb'
+    - 'vendor/bundle/**/*'
+    - 'bin/spring'
 
 Style/Documentation:
   Enabled: false
@@ -12,3 +18,9 @@ Style/AsciiIdentifiers:
 
 Style/AndOr:
   Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
