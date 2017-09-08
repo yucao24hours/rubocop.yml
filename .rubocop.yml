@@ -20,15 +20,8 @@ Style/AsciiIdentifiers:
 Style/AndOr:
   Enabled: false
 
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-
-Style/SpaceInsideBlockBraces:
-  EnforcedStyle: space
-  SpaceBeforeBlockParameters: false
 
 Metrics/MethodLength:
   Max: 25
@@ -41,9 +34,6 @@ Style/FrozenStringLiteralComment:
 Style/SingleLineMethods:
   Enabled: false
 
-Style/SpaceInsideBrackets:
-  Enabled: false
-
 Style/UnneededInterpolation:
   Enabled: false
 
@@ -51,4 +41,14 @@ Style/BracesAroundHashParameters:
   EnforcedStyle: context_dependent
 
 Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+  SpaceBeforeBlockParameters: false
+
+Layout/SpaceInsideBrackets:
   Enabled: false
