@@ -52,3 +52,6 @@ Layout/SpaceInsideBlockBraces:
 
 Layout/SpaceInsideBrackets:
   Enabled: false
+
+Performance/ParallelAssignment:
+  Enabled: false
